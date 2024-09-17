@@ -1,0 +1,31 @@
+.tabName {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 6px;
+  text-transform: capitalize;
+}
+.tabContainer {
+  padding: 0 5px;
+}
+.navbarImageContainer {
+  min-height: 32px;
+}
+.activeIcon {
+  display: none;
+}
+.nonActiveIcon {
+  display: block;
+}
+.activeTab .activeIcon {
+  display: block;
+}
+.activeTab .nonActiveIcon {
+  display: none;
+}
+.activeTab .tabName {
+  color: var(--primaryColor2);
+}

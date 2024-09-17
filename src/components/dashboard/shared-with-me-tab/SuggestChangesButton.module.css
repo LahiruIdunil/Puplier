@@ -1,0 +1,29 @@
+.buttonIconContainer {
+  display: flex;
+}
+.buttonIconContainer img {
+  margin: auto 10px auto 0;
+  position: relative;
+  top: 3px;
+}
+.buttonText {
+  margin: auto 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 148.9%;
+  color: var(--primaryColor2);
+  text-transform: capitalize;
+}
+.actionButton {
+  padding: 7px 23px 7px 17px;
+  border: 1px solid var(--primaryColor2);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.diabledActionButton {
+  border-color: var(--secondaryColor4);
+  cursor: not-allowed;
+}
+.diabledActionButton .buttonText {
+  color: gray;
+}

@@ -1,0 +1,14 @@
+.lineContainer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: rgba(167, 167, 167, 0.59);
+  margin: auto;
+}
+.activeLine {
+  background-color: var(--primaryColor2);
+}

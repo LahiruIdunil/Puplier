@@ -1,0 +1,87 @@
+.articleContainer {
+  margin-bottom: 67px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.articleImage {
+  width: 100%;
+  height: 217px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 16px;
+}
+.articleTitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 148.9%;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.articleScoreAndReadTimeContainer {
+  margin-bottom: 20px;
+}
+.articleScore {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 148.9%;
+  color: var(--primaryColor2);
+  margin: 0;
+  text-transform: capitalize;
+}
+.articleReadTime {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  margin-bottom: 3px;
+}
+.articleAuthorNameContainer {
+  max-width: calc(100% - 30px);
+  overflow: hidden;
+}
+.articleAuthor {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 148.9%;
+  text-transform: uppercase;
+  color: var(--secondaryColor3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.saved,
+.unSaved {
+  cursor: pointer;
+}
+.unSavedIcon,
+.savedIcon {
+  font-size: 25px;
+  color: var(--primaryColor2);
+}
+.saved .unSavedIcon {
+  display: none;
+}
+.saved .savedIcon {
+  display: block;
+}
+.unSaved .unSavedIcon {
+  display: block;
+}
+.unSaved .savedIcon {
+  display: none;
+}
+@media (min-width: 1800px) {
+  .articleContainer {
+    padding: 0 21px;
+  }
+}
+@media (min-width: 420px) and (max-width: 575px) {
+  .articleImage {
+    height: 287px;
+  }
+}

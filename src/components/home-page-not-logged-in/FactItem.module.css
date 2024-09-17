@@ -1,0 +1,41 @@
+.factItemContainer {
+  margin-bottom: 50px;
+  padding: 0 30px;
+}
+.factTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.factContent {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: var(--secondaryColor3);
+}
+@media (max-width: 1799px) {
+  .factItemContainer {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 767px) {
+  .factItemContainer {
+    padding: 0;
+  }
+}
+@media (max-width: 575px) {
+  .factTitle {
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+  .factContent {
+    font-size: 20px;
+  }
+  .factItemContainer {
+    margin-bottom: 30px;
+  }
+}

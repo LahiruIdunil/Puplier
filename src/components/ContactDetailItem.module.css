@@ -1,0 +1,15 @@
+.itemContainer {
+  margin-bottom: 37px;
+}
+.icon {
+  color: var(--primaryColor2);
+  margin-right: 37px;
+  font-size: 27px;
+}
+.detail {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  margin: 0;
+}

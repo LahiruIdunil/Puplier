@@ -1,0 +1,15 @@
+.categoryName {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 148.9%;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.categoryName:hover {
+  color: var(--primaryColor2);
+}

@@ -1,0 +1,31 @@
+.articleScoreContainer {
+  margin-bottom: 73px;
+}
+.articleScoreContainer .articleScoreSideNote {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 148.9%;
+  text-align: center;
+  color: var(--lightGray);
+  margin-bottom: 35px;
+}
+.articleScore {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 106.9%;
+  color: #000000;
+  margin-bottom: 9.3px;
+}
+@media (max-width: 1199px) {
+  .articleScoreContainer {
+    margin-bottom: 113px;
+  }
+  .articleScore {
+    font-size: 30px;
+  }
+}

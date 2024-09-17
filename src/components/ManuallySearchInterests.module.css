@@ -1,0 +1,47 @@
+.searchBar {
+  box-sizing: border-box;
+  width: 100%;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid var(--secondaryColor4);
+  border-radius: 4px;
+  margin-bottom: 18px;
+  outline: none !important;
+  padding: 0 16px;
+  text-transform: capitalize;
+}
+.searchBar::placeholder {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+}
+.searchBarBtnBox {
+  height: 48px;
+}
+.searchBarBtn {
+  background-color: white;
+  border: none;
+  width: 100%;
+  height: 48px;
+}
+.searchBarText {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 148.9%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3caac4;
+  margin: 10px 0;
+}
+.dropDownArrow {
+  position: absolute;
+  font-size: 30px;
+  display: block;
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.buttonsContainer {
+  margin-bottom: 100px;
+}
+.saveDraftButton,
+.markAsUnderReview {
+  outline: none !important;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 148.9%;
+  color: #000000;
+}
+.saveDraftButton {
+  border: 1px solid var(--primaryColor1);
+  border-radius: 5px;
+  width: 153px;
+  height: 55px;
+  background: white;
+}
+.markAsUnderReview {
+  background: var(--primaryColor1);
+  border-radius: 5px;
+  border: none;
+  width: 252px;
+  height: 55px;
+}
+.markAsUnderReviewButtonIcon {
+  margin-right: 8px;
+}
+@media (max-width: 575px) {
+  .saveDraftButton,
+  .markAsUnderReview {
+    width: 100%;
+  }
+  .markAsUnderReview {
+    margin-top: 20px;
+  }
+  .buttonsContainer {
+    margin-bottom: 60px;
+  }
+}

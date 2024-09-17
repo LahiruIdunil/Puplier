@@ -1,0 +1,32 @@
+.memberDiv {
+  width: 248px;
+  margin: 0 auto;
+}
+.memberPhotoDiv {
+  height: 226px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.memberDescriptionContainer {
+  background-color: #000000;
+  padding: 10px 0 8px;
+}
+.memberPosition {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 7px;
+}
+.memberName {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 8px;
+}

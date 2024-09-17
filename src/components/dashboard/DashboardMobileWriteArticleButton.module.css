@@ -1,0 +1,14 @@
+.buttonContainer {
+  position: fixed;
+  bottom: 110px;
+  right: 8px;
+  z-index: 1020;
+}
+.button {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  display: flex;
+  background: var(--primaryColor1);
+  box-shadow: 0px -6px 14px -1px rgba(0, 0, 0, 0.19);
+}

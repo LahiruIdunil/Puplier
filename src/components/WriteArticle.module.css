@@ -1,0 +1,71 @@
+.editArticleContainer {
+  width: 831px;
+  margin-top: 60px;
+}
+.addCoverPhotoContainer {
+  cursor: pointer;
+}
+.uploadedImageParentContainer {
+  margin: 40px 0;
+}
+.uploadedImage {
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+.imageRemoveButton {
+  border: 1px solid red;
+  background: white;
+  color: red;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  width: 200px;
+  padding: 10px 0;
+  outline: none !important;
+  border-radius: 50px;
+}
+.addCoverPhoto {
+  margin: auto 7px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167.9%;
+  color: rgba(56, 56, 56, 0.46);
+}
+.categorySelectorContainer {
+  margin-bottom: 43px;
+  width: 281px;
+}
+.chooseCategorySelector {
+  background: #ffffff;
+  border: 1px solid #aeadad;
+  border-radius: 6px;
+  width: 281px;
+  height: 52px;
+  padding: 0 27px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin-bottom: 43px;
+  width: 281px;
+}
+.editorContainer {
+  margin-bottom: 55px;
+}
+@media (max-width: 1399px) {
+  .editArticleContainer {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .editArticleContainer {
+    margin-top: 30px;
+  }
+}

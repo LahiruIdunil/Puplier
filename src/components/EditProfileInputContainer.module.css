@@ -1,0 +1,24 @@
+.label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.inputContainer {
+  margin-bottom: 31px;
+}
+.input {
+  border: 1px solid var(--secondaryColor4);
+  border-radius: 5px;
+  width: 100%;
+  padding: 12px 23px;
+  outline: none !important;
+}
+.errorMessage {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}

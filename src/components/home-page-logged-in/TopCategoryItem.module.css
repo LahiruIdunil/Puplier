@@ -1,0 +1,75 @@
+.listItem {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+  margin: auto;
+  transition: all 0.1s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.listItem:hover {
+  color: var(--lightGray);
+}
+.listItemContainer {
+  max-width: 300px;
+  overflow: hidden;
+}
+@media (max-width: 1599px) {
+  .listItem {
+    font-size: 18px;
+  }
+  .listItemContainer {
+    max-width: 200px;
+  }
+}
+@media (max-width: 1399px) {
+  .listItem {
+    font-size: 17px;
+  }
+  .listItemContainer {
+    max-width: 150px;
+  }
+}
+@media (max-width: 1199px) {
+  .listItem {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+  .listItemContainer {
+    border: 1px solid var(--secondaryColor4);
+    border-radius: 40px;
+    padding: 3px 15px;
+    max-width: 115px;
+    overflow: hidden;
+  }
+  .listItemContainerParent {
+    margin-bottom: 6px;
+    padding: 0 4px;
+  }
+}
+@media (max-width: 767px) {
+  .listItemContainer {
+    max-width: 105px;
+  }
+}
+@media (max-width: 575px) {
+  .listItemContainer {
+    padding: 3px 8px;
+    max-width: 85px;
+  }
+  .listItem {
+    font-size: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .listItemContainer {
+    max-width: 67px;
+  }
+}

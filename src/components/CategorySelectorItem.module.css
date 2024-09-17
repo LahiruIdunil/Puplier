@@ -1,0 +1,16 @@
+.itemContainer {
+  margin-bottom: 36px;
+}
+.titleContainer {
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--secondaryColor4);
+  margin-bottom: 16px;
+}
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 148.9%;
+  text-transform: uppercase;
+  color: #ffc942;
+  margin: 0;
+}

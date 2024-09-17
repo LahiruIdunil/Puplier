@@ -1,0 +1,20 @@
+.customMenu {
+  left: -141px !important;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148.9%;
+  text-transform: capitalize;
+  min-width: 100%;
+  width: 165px;
+}
+.customMenu ul {
+  margin: 0;
+}
+.customMenu a {
+  color: #959393 !important;
+}
+.dropdownItem:active {
+  background-color: var(--primaryColor1);
+}

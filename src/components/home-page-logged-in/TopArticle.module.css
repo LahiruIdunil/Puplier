@@ -1,0 +1,80 @@
+.topArticleImage {
+  width: 473px;
+  height: 371px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-right: 20px;
+}
+.topArticleDetailsContainer {
+  padding: 7px 15px 0;
+}
+.topArticleTitle {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 123.9%;
+  color: #000000;
+  margin-bottom: 26px;
+}
+.topArticleAuthor {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: var(--secondaryColor3);
+  margin-bottom: 24px;
+}
+.topArticleContent {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 148.9%;
+  color: #383838;
+  margin: 0;
+}
+.topArticleReadMore {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 148.9%;
+  text-decoration-line: underline;
+  color: var(--primaryColor2);
+  margin: 0;
+  text-transform: capitalize;
+}
+.navLink {
+  text-decoration: none;
+}
+@media (max-width: 1399px) {
+  .topArticleImage {
+    width: 463px;
+  }
+}
+@media (max-width: 1199px) {
+  .topArticleImage {
+    width: 440px;
+  }
+}
+@media (max-width: 991px) {
+  .topArticleImage {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .topArticleTitle {
+    font-size: 26px;
+  }
+  .topArticleImage {
+    height: 310px;
+  }
+  .topArticleAuthor {
+    font-size: 20px;
+  }
+  .topArticleContent {
+    font-size: 20px;
+  }
+  .topArticleReadMore {
+    font-size: 20px;
+  }
+}

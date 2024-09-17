@@ -1,0 +1,23 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  --primaryColor1: #ffc942;
+  --primaryColor2: #3caac4;
+  --secondaryColor1: #3d6072;
+  --secondaryColor2: #f35f71;
+  --secondaryColor3: #383838;
+  --secondaryColor4: #d9d9d9;
+  --lightGray: rgba(56, 56, 56, 0.78);
+  --lightBlue: rgba(60, 170, 196, 0.06);
+}
+.secondaryText {
+  font-family: "Baloo Da 2", cursive;
+}

@@ -1,0 +1,73 @@
+.itemContainer {
+  background: #ffffff;
+  border: 1px solid var(--secondaryColor4);
+  border-radius: 9px;
+  margin-bottom: 26px;
+  padding: 10px 17px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.itemContainer:hover {
+  scale: 1.02;
+  border-color: var(--primaryColor2);
+}
+.imageContainer {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.userName {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 148.9%;
+  color: #000000;
+  margin-bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.acctionButtonIcon {
+  color: var(--lightGray);
+}
+.addIcon {
+  display: block;
+}
+.cancelIcon {
+  display: none;
+}
+.selectedSuggestionItem {
+  background: var(--primaryColor2);
+}
+.selectedSuggestionItem .userName {
+  color: white;
+}
+.selectedSuggestionItem .acctionButtonIcon {
+  color: white;
+}
+.selectedSuggestionItem .addIcon {
+  display: none;
+}
+.selectedSuggestionItem .cancelIcon {
+  display: block;
+}
+@media (min-width: 1400px) and (max-width: 1799px) {
+  .itemContainer {
+    padding: 10px 7px;
+  }
+}
+@media (max-width: 1799px) {
+  .imageContainer {
+    width: 45px;
+    height: 45px;
+  }
+}
+@media (max-width: 991px) {
+  .itemContainer {
+    padding: 10px 7px;
+  }
+}

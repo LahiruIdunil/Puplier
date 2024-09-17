@@ -1,0 +1,45 @@
+@media (min-width: 992px) {
+  .centerDiv {
+    width: 800px;
+    max-width: 800px;
+  }
+}
+.centerDiv {
+  margin: 100px auto;
+}
+.titleContainer {
+  margin-bottom: 50px;
+  border-bottom: 1px dashed var(--secondaryColor3);
+  padding-bottom: 7px;
+}
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--secondaryColor1);
+}
+h2 {
+  font-size: 22px;
+}
+h4 {
+  font-size: 18px;
+  /* font-weight: bold; */
+}
+li {
+  font-family: "Roboto", sans-serif;
+}
+.email,
+.link {
+  color: var(--primaryColor2);
+}
+@media (max-width: 1399px) {
+  .title {
+    font-size: 35px;
+  }
+}
+@media (max-width: 575px) {
+  .centerDiv {
+    margin-top: 50px;
+  }
+}

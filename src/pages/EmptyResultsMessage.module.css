@@ -1,0 +1,4 @@
+.noResultsMessage {
+  color: var(--lightGray);
+  margin-bottom: 140px;
+}

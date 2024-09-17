@@ -1,0 +1,73 @@
+.benifitItemContainer {
+  background: var(--secondaryColor3);
+  border-radius: 5px;
+  padding: 40px 35px;
+  min-height: 494px;
+  margin-bottom: 60px;
+  margin-right: 28px;
+  margin-left: 28px;
+}
+.benifitItemTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 106.9%;
+  color: #ffffff;
+  margin-left: 37px;
+  margin-bottom: 0;
+}
+.benifitItemContent {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: var(--secondaryColor4);
+}
+.benifitItemTitleContainer {
+  display: flex;
+  min-height: 107px;
+}
+@media (min-width: 1600px) and (max-width: 1799px) {
+  .benifitItemContainer {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .benifitItemContainer {
+    margin-right: 10px;
+    margin-left: 10px;
+    min-height: 534px;
+  }
+  .benifitItemTitleContainer {
+    min-height: 117px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .benifitItemContainer {
+    min-height: 534px;
+  }
+  .benifitItemTitleContainer {
+    min-height: 117px;
+  }
+}
+@media (max-width: 991px) {
+  .benifitItemContainer {
+    margin-right: 0;
+    margin-left: 0;
+    min-height: unset;
+    padding: 40px 35px 70px;
+  }
+}
+@media (max-width: 575px) {
+  .benifitItemTitle {
+    font-size: 25px;
+    margin-left: 14px;
+  }
+  .benifitItemTitleContainer {
+    min-height: 87px;
+  }
+  .benifitItemContent {
+    font-size: 19px;
+  }
+}

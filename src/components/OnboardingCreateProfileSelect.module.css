@@ -1,0 +1,26 @@
+.inputSelectTextAreaContainer {
+  margin-bottom: 27px;
+}
+.inputSelectTextArea {
+  box-sizing: border-box;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #aeadad;
+  border-radius: 5px;
+  outline: none;
+  padding: 14px 23px;
+  height: 60px;
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+}
+.dropDownArrow {
+  position: absolute;
+  top: 18px;
+  right: 12px;
+}
+.errorMessage {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}

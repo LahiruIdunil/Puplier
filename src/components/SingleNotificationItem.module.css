@@ -1,0 +1,46 @@
+.notificationContainer {
+  border-bottom: 1px solid rgba(56, 56, 56, 0.15);
+  padding: 38.5px 0;
+}
+.unReadNotification {
+  background: rgba(60, 170, 196, 0.11);
+  /* TODO: remove teh below style later */
+  background: white;
+}
+.userImageContainer {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-right: 10px;
+}
+.messageContainer {
+  min-height: 75px;
+}
+.message {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 148.9%;
+  color: black;
+}
+.commentContainer {
+  margin-top: 22px;
+}
+.comment {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 148.9%;
+  color: var(--secondaryColor1);
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .userImageContainer {
+    width: 55px;
+    height: 55px;
+    margin-right: 0;
+  }
+}

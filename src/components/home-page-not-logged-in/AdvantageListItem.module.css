@@ -1,0 +1,18 @@
+.listItem {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: var(--secondaryColor3);
+}
+.listItemContainer {
+  margin-bottom: 15px;
+}
+.checkIcon {
+  margin-right: 31px;
+}
+@media (max-width: 575px) {
+  .listItem {
+    font-size: 20px;
+  }
+}

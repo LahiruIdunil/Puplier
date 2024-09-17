@@ -1,0 +1,18 @@
+.listTitle {
+  font-size: 18px;
+  margin-bottom: 35px;
+  color: var(--lightGray);
+}
+.listContainer {
+  margin-bottom: 70px;
+}
+@media (max-width: 767px) {
+  .listTitle {
+    font-size: 17px;
+  }
+}
+@media (max-width: 575px) {
+  .listTitle {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,64 @@
+.componentBody {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid var(--secondaryColor4);
+  border-radius: 9px;
+  height: 74px;
+  padding: 0 21px;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+.componentRightContainer {
+  max-width: calc(100% - 60px);
+}
+.selectedItem {
+  background: var(--primaryColor2);
+}
+.pictureDiv {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-right: 15px;
+}
+.nameContainer {
+  max-width: calc(100% - 20px);
+  overflow: hidden;
+}
+.componentText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148.9%;
+  color: #000000;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.selectedItem .componentText {
+  color: white !important;
+}
+.toggleIcon {
+  font-size: 16px;
+  line-height: 148.9%;
+  color: #000000;
+}
+.addIcon {
+  display: block;
+}
+.closeIcon {
+  display: none;
+}
+.selectedItem .addIcon {
+  display: none;
+}
+.selectedItem .closeIcon {
+  display: block;
+  color: white;
+}

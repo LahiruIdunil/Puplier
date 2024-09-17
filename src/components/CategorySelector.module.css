@@ -1,0 +1,132 @@
+.categorySelectorContainer {
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1055;
+  backdrop-filter: blur(42.5px);
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.categorySelectorContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.categorySelectorContainer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.stopRootScrolling {
+  overflow: hidden;
+  height: 100vh;
+}
+.show {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  visibility: visible;
+  transform: translate(0, 0);
+  transition: all 0.3s;
+}
+.hide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(0, 1500px);
+  transition: all 0.3s;
+}
+.closeButton {
+  color: white;
+  margin-top: 17px;
+  margin-right: 5px;
+  font-size: 34px;
+  cursor: pointer;
+}
+.categoryListContainer {
+  padding-top: 17px;
+}
+.categorySelectorTitleContainer {
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--secondaryColor4);
+  margin-bottom: 79px;
+}
+.castegorySelectorTitle {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 148.9%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .categorySelectorItemContainer {
+    padding: 0 93px;
+  }
+  .categorySelectorItemsContainer {
+    margin: 0 -93px;
+  }
+}
+@media (min-width: 768px) {
+  .categorySelectorItemContainer {
+    padding: 0 83px;
+  }
+  .categorySelectorItemsContainer {
+    margin: 0 -83px;
+  }
+}
+@media (min-width: 992px) {
+  .categorySelectorItemContainer {
+    padding: 0 73px;
+  }
+  .categorySelectorItemsContainer {
+    margin: 0 -73px;
+  }
+}
+@media (min-width: 1200px) {
+  .categorySelectorItemContainer {
+    padding: 0 83px;
+  }
+  .categorySelectorItemsContainer {
+    margin: 0 -83px;
+  }
+}
+@media (min-width: 1400px) {
+  .categoryListContainer {
+    width: 90%;
+  }
+  .categorySelectorItemContainer {
+    padding: 0 40px;
+  }
+  .categorySelectorItemsContainer {
+    margin: 0 -40px;
+  }
+}
+@media (min-width: 1600px) {
+  .categoryListContainer {
+    width: 85%;
+  }
+  .categorySelectorItemContainer {
+    padding: 0 43px;
+  }
+  .categorySelectorItemsContainer {
+    margin: 0 -43px;
+  }
+}
+@media (min-width: 1800px) {
+  .categorySelectorItemContainer {
+    padding: 0 53px;
+  }
+  .categorySelectorItemsContainer {
+    margin: 0 -53px;
+  }
+}
+@media (max-width: 1399px) {
+  .categoryListContainer {
+    width: 100%;
+  }
+}

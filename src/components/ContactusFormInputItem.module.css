@@ -1,0 +1,38 @@
+.inputItem {
+  border: 1px solid var(--secondaryColor4);
+  padding: 14px 18px;
+  margin-bottom: 30px;
+  width: 100%;
+  outline: none !important;
+}
+.inputItem::-webkit-input-placeholder {
+  /* Edge */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  text-transform: capitalize;
+}
+
+.inputItem:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  text-transform: capitalize;
+}
+
+.inputItem::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  text-transform: capitalize;
+}

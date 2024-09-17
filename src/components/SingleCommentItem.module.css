@@ -1,0 +1,27 @@
+.commentContainer {
+  margin-bottom: 53px;
+}
+.commentWriteImageContainer {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.commentWriterName {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.commentContent {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 148.9%;
+  color: var(--secondaryColor3);
+  margin: 0;
+}

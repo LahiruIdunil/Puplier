@@ -1,0 +1,91 @@
+.mainNavigationBar{
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+}
+.homePageNavBar .navbarContainer {
+  background-color: var(--secondaryColor3);
+}
+.navbarContainer {
+  padding: 15px 0;
+}
+.navbarContainer .searchIcon {
+  color: white;
+  margin: auto;
+}
+.customNavItem {
+  display: flex;
+  padding: 0 25px;
+  align-items: center;
+}
+.customNavItem a {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  margin: auto;
+}
+.navItem:hover {
+  color: white;
+}
+.navBarSignUpButton {
+  width: 183px;
+  height: 63px;
+  background: var(--primaryColor1);
+  border-radius: 57px;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 106.9%;
+  text-align: center;
+  color: #171e26;
+  text-transform: capitalize;
+  border: none;
+}
+.homePageNavBar .overrideNavTextStyle {
+  color: white;
+}
+.homePageNavBar .overrideSearchIconStyles {
+  color: white;
+}
+.homePageNavBar .loginButton {
+  color: white;
+}
+.homePageNavBar .menuIcon {
+  font-size: 40px;
+  color: white;
+}
+.menuIcon {
+  font-size: 30px;
+  color: black;
+}
+.loginButton {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 106.9%;
+  text-align: center;
+  color: var(--lightGray);
+  margin: 0;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+@media (max-width: 1199px) {
+  .customNavItem {
+    padding: 0 15px;
+  }
+  .navBarSignUpButton {
+    width: 173px;
+  }
+}
+@media (max-width: 991px) {
+  .customNavItem {
+    padding: 0;
+    margin-top: 30px;
+    display: flex;
+  }
+  .navBarSignUpButton {
+    width: 234px;
+    height: 50px;
+  }
+}

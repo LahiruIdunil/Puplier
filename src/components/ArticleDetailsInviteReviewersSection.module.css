@@ -1,0 +1,15 @@
+.sectionTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 106.9%;
+  text-align: center;
+  color: var(--secondaryColor1);
+  text-transform: capitalize;
+  margin-bottom: 33px;
+}
+@media (max-width: 1199px) {
+  .sectionTitle {
+    font-size: 30px;
+  }
+}

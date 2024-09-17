@@ -1,0 +1,142 @@
+.rightContainer {
+  position: relative;
+}
+.coverImg {
+  height: 400px;
+  background-image: url("./images/contact-us-cover-photo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 97px;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 9;
+}
+.title {
+  padding-top: 121px;
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  position: relative;
+  z-index: 10;
+  margin: 0;
+}
+.bodyContainer {
+  margin-bottom: 132px;
+}
+.sectionTitle {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 148.9%;
+  text-transform: capitalize;
+  color: var(--secondaryColor1);
+  margin-bottom: 33px;
+}
+.mapContainer {
+  height: 334px;
+}
+.messageTextArea {
+  border: 1px solid var(--secondaryColor4);
+  padding: 14px 18px;
+  width: 100%;
+  outline: none !important;
+  height: 188px;
+}
+.messageTextArea::-webkit-input-placeholder {
+  /* Edge */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  text-transform: capitalize;
+}
+
+.messageTextArea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  text-transform: capitalize;
+}
+
+.messageTextArea::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  text-transform: capitalize;
+}
+.messageSendButton {
+  width: 100%;
+  height: 70px;
+  background: var(--primaryColor1);
+  border: none;
+  outline: none !important;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  text-transform: capitalize;
+  color: #000000;
+  margin-top: 40px;
+}
+.formOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: rgb(209 209 209 / 74%);
+  display: flex;
+}
+.comingSoonTag {
+  color: red;
+  margin: auto;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media (min-width: 1200px) {
+  .rightContainer {
+    width: 45%;
+  }
+}
+@media (max-width: 991px) {
+  .rightContainer {
+    margin-top: 50px;
+  }
+  .coverImg {
+    height: 360px;
+  }
+}
+@media (max-width: 575px) {
+  .coverImg {
+    height: 300px;
+  }
+  .title {
+    font-size: 48px;
+  }
+  .sectionTitle {
+    text-align: center;
+  }
+}

@@ -1,0 +1,31 @@
+.topCategoryListBarContainer {
+  padding: 28px 0;
+}
+.topArticleContainer {
+  padding-bottom: 44px;
+}
+.categoriesYouMayInterestContainer {
+  padding: 6px 0 22px;
+}
+.similarProfilesContainer {
+  padding-bottom: 36px;
+}
+.mainContainer {
+  margin-top: 20px;
+}
+.leftContainer {
+  padding-right: 43px;
+}
+.rightContainer {
+  padding-left: 23px;
+}
+@media (max-width: 991px) {
+  .topArticleContainer {
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 1399px) {
+  .leftContainer {
+    padding-right: 12px;
+  }
+}

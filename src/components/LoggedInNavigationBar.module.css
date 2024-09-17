@@ -1,0 +1,103 @@
+.mainNavigationBar{
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+}
+.navbarContainer {
+  background-color: white;
+  padding: 15px 0;
+  position: relative;
+  z-index: 1020;
+}
+.customNavItem {
+  display: flex;
+  padding: 0 23.5px;
+  align-items: center;
+}
+.newArticleButtonContainer {
+  padding: 0 7.5px 0 26px;
+}
+.userAvatarContainer {
+  padding: 0 0 0 8.5px;
+}
+.newArticleButton {
+  border: none;
+  outline: none !important;
+  background-color: var(--primaryColor1);
+  width: 167px;
+  height: 54px;
+  border-radius: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 106.9%;
+  text-align: center;
+  color: #000000;
+  text-transform: capitalize;
+}
+.mobileViewLogoutButton {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 106.9%;
+  text-align: center;
+  color: var(--lightGray);
+  margin: 0;
+  text-transform: capitalize;
+}
+.customToggle {
+  width: 54px;
+  height: 54px;
+  background-color: gray;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.customToggle a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.customDropdownMenu {
+  left: -111px !important;
+  top: 3 !important;
+  background: #ffffff;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+}
+.customDropdownItem {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 106.9%;
+  color: var(--lightGray) !important;
+  text-transform: capitalize;
+  padding: 9px 9px 9px 17px;
+}
+.customDropdownItem:hover {
+  background: rgba(255, 201, 66, 0.53);
+}
+@media (max-width: 1199px) {
+  .customNavItem {
+    padding: 0 14.5px;
+  }
+  .newArticleButtonContainer {
+    padding: 0 7.5px 0 17px;
+  }
+  .newArticleButton {
+    width: 157px;
+    height: 50px;
+    font-size:15px;
+  }
+}
+@media (max-width: 991px) {
+  .customNavItem {
+    padding: 0;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  .newArticleButton {
+    width: 234px;
+  }
+}

@@ -1,0 +1,34 @@
+.ComponentBox {
+  box-sizing: border-box;
+  display: flex;
+  height: 45px;
+  padding: 10px 25px;
+  background-color: var(--primaryColor2);
+  border: 1px solid var(--primaryColor2);
+  border-radius: 58px;
+  margin: 9px 5px;
+  cursor: default !important;
+}
+.componentBoxText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 148.9%;
+  align-items: center;
+  margin: 0;
+  text-transform: capitalize;
+  color: #ffffff;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.icon {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 148.9%;
+  margin-left: 18px;
+  color: #ffffff;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.navText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 106.9%;
+  text-align: center;
+  color: var(--lightGray);
+  margin: 0;
+  text-transform: capitalize;
+}
+.activeTab .navText {
+  color: var(--primaryColor2) !important;
+}

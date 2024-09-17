@@ -1,0 +1,15 @@
+.inputSelectTextArea {
+  box-sizing: border-box;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #aeadad;
+  border-radius: 5px;
+  outline: none;
+  padding: 14px 23px 15px;
+  display: block;
+}
+.errorMessage {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}

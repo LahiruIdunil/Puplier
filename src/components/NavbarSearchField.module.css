@@ -1,0 +1,68 @@
+.navbarSearchFieldContainer {
+  width: 273px;
+}
+.NavbarSearchField {
+  background: #ffffff;
+  border: 1px solid var(--lightGray);
+  border-radius: 30px;
+  height: 48px;
+  width: 100%;
+  padding: 0 50px 0 19px;
+  outline: none !important;
+}
+.NavbarSearchField::-webkit-input-placeholder {
+  /* Edge */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--lightGray);
+  text-transform: capitalize;
+}
+.NavbarSearchField:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--lightGray);
+  text-transform: capitalize;
+}
+.NavbarSearchField::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--lightGray);
+  text-transform: capitalize;
+}
+.mobileNavbarSearchButton {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--primaryColor2);
+  cursor: pointer;
+}
+.mobileNavbarSearchIcon {
+  color: white;
+  margin: auto;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+.mobileNavbarSearchButton:hover .mobileNavbarSearchIcon {
+  color: var(--black);
+}
+@media (max-width: 1199px) {
+  .navbarSearchFieldContainer {
+    width: 204px;
+  }
+}
+@media (max-width: 991px) {
+  .navbarSearchFieldContainer {
+    width: 234px;
+  }
+}

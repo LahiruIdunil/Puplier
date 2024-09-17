@@ -1,0 +1,24 @@
+.googleSignInBox {
+  box-sizing: border-box;
+  width: 100%;
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid rgba(174, 173, 173, 0.78);
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26px;
+  cursor: pointer;
+  padding: 5px;
+}
+.googleSignInText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 148.9%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #0079ec;
+  margin: 0;
+  padding-left: 11px;
+}

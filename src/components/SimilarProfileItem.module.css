@@ -1,0 +1,45 @@
+.profileMainContainer {
+  margin-bottom: 15px;
+}
+.profileImageContainer {
+  padding-right: 20px;
+}
+.profileImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.profileName {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+}
+.profileDescription {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 148.9%;
+  color: var(--secondaryColor3);
+}
+.itemContainer {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 575px) {
+  .profileName {
+    font-size: 21px;
+  }
+  .profileImage {
+    height: 60px;
+    width: 60px;
+  }
+  .profileDescription {
+    font-size: 18px;
+  }
+}

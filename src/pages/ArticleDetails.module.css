@@ -1,0 +1,187 @@
+.leftContainer {
+  padding-right: 188px;
+}
+.rightContainer {
+  width: 271px;
+}
+.publishedDate {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 181.9%;
+  text-transform: uppercase;
+  color: var(--lightGray);
+  margin-bottom: 20px;
+}
+.articleStatus {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 181.9%;
+  text-transform: uppercase;
+  color: var(--lightGray);
+  margin-bottom: 20px;
+}
+.articleTitle {
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 106.9%;
+  margin-bottom: 15px;
+  color: #000000;
+}
+.authorDetailsContainer {
+  margin-bottom: 35px;
+}
+.authorImageContainer {
+  margin-right: 22px;
+}
+.authorImage {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.authorName {
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  margin: 0;
+  text-transform: capitalize;
+}
+.articleImage {
+  height: 371px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 38px;
+}
+.descriptionContainer {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 15px;
+  margin-bottom: 32px;
+}
+.descriptionContainer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 165.9%;
+  color: #000000;
+  margin-bottom: 30px;
+  word-wrap: break-word;
+}
+.descriptionContainer h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 106.9%;
+  color: #000000;
+  margin-bottom: 18px;
+}
+.descriptionContainer img {
+  margin: 0 15px;
+}
+.commentCount {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 106.9%;
+  color: var(--secondaryColor1);
+  text-transform: capitalize;
+  margin-bottom: 42px;
+}
+.editArticleButton {
+  background: #f0c808;
+  border: 2px solid #ffc942;
+  border-radius: 39px;
+  height: 63px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+  margin-top: 14px;
+  margin-bottom: 66px;
+}
+.reviewersContainer {
+  margin-bottom: 53px;
+}
+.reviewersProfileContainer {
+  margin: 0 -8.5px;
+}
+@media (max-width: 1799px) {
+  .leftContainer {
+    padding-right: 140px;
+  }
+}
+@media (max-width: 1599px) {
+  .leftContainer {
+    padding-right: 70px;
+  }
+  .rightContainer {
+    width: 250px;
+  }
+}
+@media (max-width: 1399px) {
+  .rightContainer {
+    width: 230px;
+  }
+  .articleTitle {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1199px) {
+  .rightContainer {
+    width: 100%;
+  }
+  .leftContainer {
+    padding-right: 12px;
+  }
+  .editArticleButton {
+    width: 210px;
+    margin: 0;
+  }
+  .descriptionContainer {
+    margin-bottom: 70px;
+  }
+  .reviewersContainer {
+    margin-bottom: 80px;
+  }
+  .commentSection {
+    margin-top: 110px;
+  }
+}
+@media (max-width: 991px) {
+  .editArticleButton {
+    width: 196px;
+    height: 55px;
+  }
+}
+@media (max-width: 767px) {
+  .articleTitle {
+    font-size: 33px;
+    margin-bottom: 40px;
+  }
+  .authorName {
+    max-width: 220px;
+  }
+}
+@media (max-width: 575px) {
+  .editArticleButton {
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+  }
+  .artilceDetailsContainer {
+    padding: 0 20px;
+  }
+  .articleTitle {
+    font-size: 31px;
+    margin-bottom: 25px;
+  }
+}

@@ -1,0 +1,31 @@
+.interestsDropdown {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 55px;
+  padding: 10px 0;
+  border: 1px solid var(--secondaryColor4);
+  min-height: 46px;
+  background: white;
+  z-index: 1000;
+  display: none;
+  max-height: 320px;
+  overflow: auto;
+}
+.show {
+  display: block !important;
+}
+.interestsDropdown .defaultMessage {
+  margin: 0 16px;
+}
+.dropdownItem {
+  margin: 0;
+  text-transform: capitalize;
+}
+.dropdownItemContainer {
+  padding: 5px 16px;
+  cursor: pointer;
+}
+.dropdownItemContainer:hover {
+  background: rgba(255, 201, 66, 0.53);
+}

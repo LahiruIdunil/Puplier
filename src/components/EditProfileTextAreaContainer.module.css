@@ -1,0 +1,15 @@
+.inputContainerParent {
+  margin-bottom: 31px;
+}
+.aboutInputContainer {
+  border: 1px solid var(--secondaryColor4);
+  width: 100%;
+  padding: 12px 23px;
+  outline: none !important;
+  border-radius: 12px;
+}
+.errorMessage {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}

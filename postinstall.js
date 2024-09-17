@@ -1,0 +1,15 @@
+const fse = require("fs-extra");
+const path = require("path");
+const topDir = __dirname;
+fse.emptyDirSync(path.join(topDir, "public", "tinymce"));
+fse.copySync(
+  path.join(topDir, "node_modules", "tinymce"),
+  path.join(topDir, "public", "tinymce"),
+  { overwrite: true }
+);
+fse.emptyDirSync(path.join(topDir, "public", "@wiris"));
+fse.copySync(
+  path.join(topDir, "node_modules", "@wiris"),
+  path.join(topDir, "public", "@wiris"),
+  { overwrite: true }
+);

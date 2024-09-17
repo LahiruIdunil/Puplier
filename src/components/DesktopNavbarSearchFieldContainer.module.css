@@ -1,0 +1,29 @@
+.searchIcon {
+  color: var(--lightGray);
+  margin: auto;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+.showSearchIcon {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s;
+}
+.hideSearchIcon {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.hideSearchField {
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(0, -200px);
+  transition: all 0.3s;
+}
+.showSearchField {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 0.3s;
+}

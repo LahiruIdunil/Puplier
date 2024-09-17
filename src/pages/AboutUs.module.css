@@ -1,0 +1,234 @@
+.coverImg {
+  height: 400px;
+  background-image: url("./images/about-us-cover-photo.png");
+  background-repeat: none;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 79px;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 9;
+}
+.title {
+  padding-top: 121px;
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  position: relative;
+  z-index: 10;
+  margin: 0;
+}
+@media (max-width: 575px) {
+  .coverImg {
+    height: 300px;
+  }
+  .title {
+    font-size: 48px;
+  }
+}
+.ourStoryContainer {
+  margin-bottom: 106px;
+}
+.ourStoryTitle {
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 106.9%;
+  text-transform: uppercase;
+  color: var(--lightGray);
+  margin-bottom: 5px;
+  text-align: center;
+}
+.ourStoryTagline {
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 148.9%;
+  text-transform: capitalize;
+  color: var(--lightGray);
+  text-align: center;
+}
+.ourStoryContent {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 164.9%;
+  color: var(--lightGray);
+  margin: 0;
+}
+.weAreATeamContainer {
+  margin-bottom: 116px;
+}
+.weAreATeamImgDiv {
+  max-width: 475px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.weAreATeamImg {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+.weAreATeamTitle {
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 106.9%;
+  text-transform: uppercase;
+  color: var(--lightGray);
+  margin-bottom: 28px;
+}
+.weAreATeamContent {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  margin-bottom: 66px;
+}
+@media (max-width: 767px) {
+  .weAreATeamTitle {
+    font-size: 36px;
+  }
+}
+.ourPartnersSection {
+  display: flex;
+  justify-content: center;
+}
+.ourPartnersTitle {
+  font-weight: 600;
+  font-size: 41px;
+  text-align: center;
+  line-height: 106.9%;
+  text-transform: uppercase;
+  color: var(--lightGray);
+  margin-bottom: 39px;
+}
+.ourPartnersIconDiv {
+  margin-bottom: 94px;
+}
+.ourPartnersIcon {
+  width: 79px;
+  height: 79px;
+}
+.valuesDiv {
+  width: 100%;
+  background: var(--secondaryColor1);
+  padding-top: 114px;
+  padding-bottom: 141px;
+}
+@media (max-width: 575px) {
+  .valuesDiv {
+    padding-top: 74px;
+    padding-bottom: 90px;
+  }
+}
+.valuesTitle {
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+@media screen and (min-width: 700px) {
+  .valuesTagline {
+    width: 672px;
+    max-width: 672px;
+  }
+}
+.valuesTagline {
+  margin: 0 auto;
+  width: 91%;
+  max-width: 732px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 148.9%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 87px;
+}
+@media (min-width: 1400px) {
+  .valuesInnerDiv {
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+}
+@media (min-width: 992px) {
+  .valuesCol {
+    display: flex;
+    justify-content: center;
+  }
+  .valuesCol:first-child {
+    justify-content: start;
+  }
+  .valuesCol:last-child {
+    justify-content: end;
+  }
+}
+.meetTheTeamSection {
+  padding: 73px 12px 63px;
+}
+.ourTeamTitle {
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 73px;
+}
+.testimonialSection {
+  margin-top: 65px;
+}
+.testimonialsTitle {
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 11px;
+}
+.border {
+  width: 290px;
+  margin: 0 auto;
+  border-bottom: 3px solid var(--primaryColor2);
+}
+.testimonialCarouselSection {
+  margin-top: 45px;
+  background: var(--lightBlue);
+  border: 1px solid var(--secondaryColor4);
+  padding-top: 78px;
+  padding-bottom: 62px;
+}
+.carouselDiv {
+  position: relative;
+}
+.prevButton {
+  position: absolute;
+  top: 30%;
+  left: 5px;
+  border: none;
+}
+.nextButton {
+  position: absolute;
+  top: 30%;
+  right: 5px;
+  border: none;
+}
+.joinWithPuplierSection {
+  padding-top: 58px;
+  padding-bottom: 58px;
+  display: flex;
+  justify-content: center;
+}

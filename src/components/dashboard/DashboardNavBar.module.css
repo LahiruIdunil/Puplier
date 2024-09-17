@@ -1,0 +1,5 @@
+.navBarDevider {
+  height: 3px;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.1);
+  margin: 20px 0;
+}

@@ -1,0 +1,21 @@
+.slickArrow {
+  position: absolute;
+  cursor: pointer;
+  color: var(--secondaryColor4);
+  font-size: 40px;
+  top: 26px;
+}
+.slickPrev {
+  left: -34px;
+}
+.slickNext {
+  right: -34px;
+}
+@media (max-width: 991px) {
+  .slickPrev {
+    left: -19px;
+  }
+  .slickNext {
+    right: -19px;
+  }
+}

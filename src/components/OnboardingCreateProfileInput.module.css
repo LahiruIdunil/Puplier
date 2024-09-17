@@ -1,0 +1,17 @@
+.inputSelectTextAreaContainer {
+  margin-bottom: 27px;
+}
+.inputSelectTextArea {
+  box-sizing: border-box;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #aeadad;
+  border-radius: 5px;
+  outline: none;
+  padding: 17px 23px;
+}
+.errorMessage {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}

@@ -1,0 +1,13 @@
+.businessLogo {
+  width: 75px;
+}
+@media (max-width: 991px) {
+  .businessLogo {
+    width: 60px;
+  }
+}
+@media (max-width: 575px) {
+  .businessLogo {
+    width: 56px;
+  }
+}

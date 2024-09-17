@@ -1,0 +1,183 @@
+.userProfileContainer {
+  margin-top: 77px;
+}
+.leftContainer {
+  padding-right: 198px;
+}
+.rightContainer {
+  width: 404px;
+}
+.topContainer {
+  margin-bottom: 42px;
+}
+.userImageContainer {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 39px;
+}
+.userNameContainer {
+  margin-bottom: 9px;
+}
+.userName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 139.9%;
+  color: #000000;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 400px;
+}
+.userShortDescription {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 148.9%;
+  color: var(--secondaryColor3);
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.editProfileButton {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 148.9%;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  color: var(--primaryColor2);
+  margin: auto 0 5px 6px;
+  cursor: pointer;
+}
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 171.9%;
+  color: var(--secondaryColor3);
+  margin-bottom: 55px;
+}
+.myArticlesTitleContainer {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--primaryColor2);
+  margin-bottom: 30px;
+}
+.myArticlesTitle {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 106.9%;
+  color: #000000;
+  margin: 0;
+}
+.myArticlesTitle span {
+  color: var(--primaryColor2);
+  text-transform: capitalize;
+}
+.noArticlesTag {
+  color: var(--lightGray);
+}
+.similarProfileContainer {
+  margin-bottom: 85px;
+}
+.similarProfilesContainer {
+  margin: 30px 0;
+}
+.profileScoreContainer {
+  display: flex;
+  height: 36px;
+  width: auto;
+  border-radius: 6px;
+}
+.profileScoreTitleContainer {
+  border-radius: 6px 0 0 6px;
+  width: 131px;
+  display: flex;
+  border: 1px solid var(--secondaryColor1);
+}
+.profileScoreValueContainer {
+  border-radius: 0 6px 6px 0;
+  background: var(--secondaryColor1);
+  width: 66px;
+  display: flex;
+  border: 1px solid var(--secondaryColor1);
+}
+.profileScoreTitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--secondaryColor1);
+  margin: auto;
+}
+.profileScore {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 101.9%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: auto;
+}
+@media (min-width: 1399px) {
+  .overRideStylesOfArtilcesYouMayLikeItemImage {
+    height: 216px;
+  }
+}
+@media (max-width: 1799px) {
+  .rightContainer {
+    width: 384px;
+  }
+  .leftContainer {
+    padding-right: 180px;
+  }
+}
+@media (max-width: 1599px) {
+  .rightContainer {
+    width: 370px;
+  }
+  .leftContainer {
+    padding-right: 150px;
+  }
+}
+@media (max-width: 1399px) {
+  .rightContainer {
+    width: 100%;
+    padding: 30px 12px 60px;
+  }
+  .leftContainer {
+    padding-right: 12px;
+  }
+}
+@media (max-width: 991px) {
+  .userImageContainer {
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+  }
+  .userName {
+    font-size: 31px;
+  }
+}
+@media (max-width: 767px) {
+  .userImageContainer {
+    margin-bottom: 20px;
+    width: 180px;
+    height: 180px;
+    margin-right: 0;
+  }
+  .userName {
+    font-size: 29px;
+    text-align: center;
+    max-width: calc(100% - 100px);
+  }
+  .userShortDescription {
+    text-align: center;
+  }
+}

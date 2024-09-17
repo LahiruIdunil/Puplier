@@ -1,0 +1,49 @@
+@media (min-width: 576px) {
+  .votingModalContainer {
+    width: 492px;
+    max-width: 492px;
+  }
+}
+.customModalBody {
+  padding: 42px 69px 34px;
+}
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 42px;
+}
+.submitButton {
+  background: var(--primaryColor1);
+  border: none;
+  outline: none !important;
+  height: 54px;
+  width: 181px;
+  border-radius: 50px;
+  margin: 38px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submitButtonContent {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 148.9%;
+  color: #000000;
+  margin: 0;
+  text-transform: capitalize;
+}
+@media (max-width: 575px) {
+  .customModalBody {
+    padding: 42px 50px 34px;
+  }
+}
+
+@media (max-width: 480px) {
+  .customModalBody {
+    padding: 42px 40px 34px;
+  }
+}

@@ -1,0 +1,8 @@
+.editArticleContainer {
+  margin: 60px auto 0 auto;
+}
+@media (max-width: 1399px) {
+  .editArticleContainer {
+    width: 100%;
+  }
+}

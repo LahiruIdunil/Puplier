@@ -1,0 +1,42 @@
+.buttonsContainer {
+  margin: 55px 0 100px;
+}
+.saveDraftButton,
+.submitChangesButton {
+  outline: none !important;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 148.9%;
+  color: #000000;
+}
+.saveDraftButton {
+  border: 1px solid var(--primaryColor1);
+  border-radius: 5px;
+  width: 153px;
+  height: 55px;
+  background: white;
+}
+.submitChangesButton {
+  background: var(--primaryColor1);
+  border-radius: 5px;
+  border: none;
+  width: 310px;
+  height: 55px;
+}
+.submitChangesButtonIcon {
+  margin-right: 8px;
+}
+@media (max-width: 575px) {
+  .saveDraftButton,
+  .submitChangesButton {
+    width: 100%;
+  }
+  .submitChangesButton {
+    margin-top: 20px;
+  }
+  .buttonsContainer {
+    margin: 55px 0 60px;
+  }
+}

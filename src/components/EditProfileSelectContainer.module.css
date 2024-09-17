@@ -1,0 +1,33 @@
+.inputContainerParent {
+  margin-bottom: 31px;
+}
+.inputContainer {
+  border: 1px solid var(--secondaryColor4);
+  border-radius: 5px;
+  width: 100%;
+  padding: 12px 23px;
+  outline: none !important;
+}
+.inputLabel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.selectContainer {
+  height: 50px;
+  background: white;
+}
+.dropDownArrow {
+  position: absolute;
+  top: 18px;
+  right: 12px;
+}
+.errorMessage {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}

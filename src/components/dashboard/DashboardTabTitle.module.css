@@ -1,0 +1,20 @@
+.tabTitle {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+  margin: auto 0 auto 17px;
+}
+.titleContainer {
+  margin-bottom: 41px;
+}
+@media (max-width: 767px) {
+  .tabTitle {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .titleContainer {
+    margin-bottom: 16px;
+  }
+}

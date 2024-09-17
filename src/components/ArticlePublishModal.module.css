@@ -1,0 +1,113 @@
+.customModalBody {
+  padding: 0;
+}
+@media (min-width: 620px) {
+  .customPublishModal {
+    width: 600px;
+    max-width: 600px;
+  }
+}
+@media (min-width: 730px) {
+  .customPublishModal {
+    width: 700px;
+    max-width: 700px;
+  }
+}
+.modalCloseButtonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 28px;
+  padding-right: 25px;
+  margin-bottom: 9px;
+}
+.modalCloseButton {
+  outline: none !important;
+  box-shadow: none !important;
+  color: var(--lightGray);
+  font-weight: lighter;
+  cursor: pointer;
+}
+.modalBodyContainer {
+  padding: 0 55px;
+}
+.modalTitle {
+  color: #000;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 106.9%; /* 31.001px */
+  text-align: center;
+  margin-bottom: 50px;
+}
+.description {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 149.9%; /* 28.481px */
+  letter-spacing: 0.19px;
+  margin-bottom: 56px;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+}
+.goBackButton,
+.publishButton {
+  height: 60px;
+  width: 230px;
+  border: none;
+  border-radius: 60px;
+  margin-bottom: 59px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #000;
+  font-weight: 400;
+}
+.goBackButton {
+  margin-right: 20px;
+  background-color: var(--primaryColor1);
+  order: 1;
+}
+.returnIconContainer {
+  margin-right: 10px;
+}
+.returnIcon {
+  position: relative;
+  top: 4px;
+}
+.publishButton {
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+  order: 2;
+}
+@media (max-width: 620px) {
+  .buttonContainer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .goBackButton,
+  .publishButton {
+    width: 100%;
+  }
+  .goBackButton {
+    margin-right: 0;
+    order: 2;
+  }
+  .publishButton {
+    margin-bottom: 20px;
+    order: 1;
+  }
+  .description {
+    margin-bottom: 36px;
+  }
+}
+@media (max-width: 460px) {
+  .modalBodyContainer {
+    padding: 0 25px;
+  }
+}

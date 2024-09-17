@@ -1,0 +1,15 @@
+.title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+  margin: auto;
+}
+.iconContainer {
+  margin-right: 9px;
+}
+.subTitleContainer {
+  margin-top: 11px;
+  margin-bottom: 34px;
+}

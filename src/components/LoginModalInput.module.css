@@ -1,0 +1,32 @@
+.componentDiv {
+  margin-bottom: 18px;
+}
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148.9%;
+  color: var(--lightGray);
+  margin-bottom: 5px;
+}
+.inputBox {
+  box-sizing: border-box;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #aeadad;
+  border-radius: 40px;
+  padding: 13.1px 23px;
+  outline: none !important;
+}
+input::placeholder {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 148.9%;
+  color: #000000;
+}
+.errorMessage {
+  color: red;
+  font-size: 13px;
+  margin-left: 10px;
+}

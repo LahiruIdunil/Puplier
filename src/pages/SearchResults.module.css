@@ -1,0 +1,61 @@
+.mainContainer {
+  margin-top: 73px;
+}
+.searchResultsHeading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 106.9%;
+  color: #000000;
+  margin: 0;
+}
+.searchResultsHeading span {
+  color: var(--primaryColor2);
+}
+.searchResultsHeadingContainer {
+  padding-bottom: 12px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid var(--secondaryColor4);
+}
+.profileSearchResultsTitle,
+.interestCategoriesTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.interestCategoriesTitle {
+  margin-top: 73px;
+}
+.SideBarCategorySection {
+  margin-bottom: 60px;
+}
+@media (min-width: 1400px) {
+  .leftContainer {
+    padding-right: 60px;
+  }
+}
+@media (min-width: 1800px) {
+  .articlesContainer {
+    margin: 0 -21px;
+  }
+  .leftContainer {
+    padding-right: 96px;
+  }
+}
+@media (max-width: 1399px) {
+  .profileSearchResultsTitle,
+  .interestCategoriesTitle {
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .interestCategoriesTitle {
+    margin-top: 0;
+  }
+  .mobileInterestCategoriesdiv {
+    margin: 20px 0 130px;
+  }
+}

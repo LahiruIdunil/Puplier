@@ -1,0 +1,58 @@
+.inviteReviewerContainer {
+  margin-bottom: 22px;
+}
+.reviewerImage {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.reviewerDetailsContainer {
+  padding: 0 6px;
+}
+.reviewerName {
+  font-style: normal;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
+}
+.reviewerCurrentPosition {
+  color: var(--secondaryColor3);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 148.9%; /* 20.846px */
+  margin: 0;
+}
+.reviewerName,
+.reviewerCurrentPosition {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.profileDescription {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 148.9%;
+  color: var(--secondaryColor3);
+}
+.inviteReviewerIcon {
+  cursor: pointer;
+}
+@media (max-width: 575px) {
+  .reviewerName {
+    font-size: 21px;
+  }
+  .reviewerImage {
+    height: 60px;
+    width: 60px;
+  }
+}

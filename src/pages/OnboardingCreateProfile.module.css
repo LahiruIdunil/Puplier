@@ -1,0 +1,133 @@
+@media (min-width: 768px) {
+  .centerDiv {
+    width: 555px;
+    max-width: 555px;
+  }
+}
+.centerDiv {
+  width: 90%;
+  max-width: 555px;
+  margin: 100px auto 0;
+}
+.waveAndHello {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.waveImgDiv {
+  width: 34px;
+  height: 34px;
+  margin-right: 16px;
+}
+.waveImg {
+  width: 100%;
+  height: auto;
+}
+.helloText {
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 106.9%;
+  text-align: center;
+  color: var(--secondaryColor3);
+  margin: 0;
+}
+.fewMoreStepsText {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 106.9%;
+  text-align: center;
+  color: var(--lightGray);
+  margin-bottom: 55px;
+}
+.uploadImageBox {
+  width: 212px;
+  height: 137px;
+  border: 2px dashed #3caac4;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 51px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.uploadedImageParentContainer {
+  margin: 40px 0;
+}
+.uploadedImage {
+  width: 200px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+.imageRemoveButton {
+  background-color: red;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  width: 200px;
+  padding: 10px 0;
+  border: none;
+  outline: none !important;
+  border-radius: 50px;
+}
+.uploadImageInnerBox {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.uploadImageIcon {
+  margin: 0 auto;
+}
+.uploadImageText {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 148.9%;
+  text-align: center;
+  color: #927f7f;
+  margin-top: 9px;
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .imageUploadBottomTextDiv {
+    width: 320px;
+    max-width: 320px;
+  }
+}
+.imageUploadBottomTextDiv {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 320px;
+}
+.imageUploadBottomText {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148.9%;
+  text-align: center;
+  color: var(--lightGray);
+  margin-bottom: 0;
+}
+.submitButton {
+  width: 100%;
+  height: 63px;
+  background: var(--primaryColor1);
+  border-radius: 5px;
+  border: none;
+  margin-top: 88px;
+  margin-bottom: 160px;
+}
+.submitButtonText {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  text-align: center;
+  color: #000000;
+  text-transform: capitalize;
+  padding-top: 16px;
+  padding-bottom: 14px;
+}

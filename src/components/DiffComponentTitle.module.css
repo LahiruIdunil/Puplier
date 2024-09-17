@@ -1,0 +1,8 @@
+.diffComponentTitle {
+  color: var(--secondaryColor1);
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 148.9%; /* 40.203px */
+  margin-bottom: 25px;
+}

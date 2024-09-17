@@ -1,0 +1,18 @@
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+}
+.messageImage {
+  width: 80px;
+  margin: auto;
+  display: flex;
+}
+.message {
+  color: #a5a5a5;
+  margin: 10px 0 0;
+  text-transform: capitalize;
+  font-size: 14px;
+}

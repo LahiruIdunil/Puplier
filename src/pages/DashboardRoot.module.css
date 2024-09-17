@@ -1,0 +1,57 @@
+.dashboardContainer {
+  margin-top: 79px;
+}
+.navBarContainer {
+  width: 280px;
+  margin-right: 40px;
+  margin-bottom: 100px;
+}
+.leftSideBarContainer {
+  width: 300px;
+  margin-left: 70px;
+}
+@media (max-width: 1799px) {
+  .navBarContainer {
+    margin-right: 30px;
+  }
+  .leftSideBarContainer {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 1599px) {
+  .navBarContainer {
+    margin-right: 10px;
+  }
+  .leftSideBarContainer {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 1399px) {
+  .leftSideBarContainer {
+    margin-left: 0;
+  }
+  .leftSideBarContainer {
+    width: unset;
+  }
+  .navBarContainer {
+    width: 265px;
+  }
+}
+@media (max-width: 991px) {
+  .leftSideBarContainerParent {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .dashboardContainer {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 575px) {
+  .dashboardContainer {
+    margin-top: 10px;
+  }
+  .leftSideBarContainerParent {
+    background-color: var(--lightBlue);
+  }
+}

@@ -1,0 +1,20 @@
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 106.9%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 48px;
+}
+.itemContainer {
+  margin-bottom: 70px;
+}
+
+@media (max-width: 575px) {
+  .title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}

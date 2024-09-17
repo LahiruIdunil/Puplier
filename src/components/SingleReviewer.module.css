@@ -1,0 +1,12 @@
+.imageContainer {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.itemContainer {
+  padding: 0 8.5px;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,68 @@
+.image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 186px;
+}
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 148.9%;
+  color: var(--secondaryColor3);
+  margin-top: 9px;
+  margin-bottom: 35px;
+}
+.authorImageContainer {
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.authorName {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 148.9%;
+  color: #000000;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.publishedDate,
+.readTime {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 148.9%;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  color: var(--lightGray);
+}
+.dateDivider {
+  position: relative;
+  top: -6px;
+  color: var(--lightGray);
+  margin: 0 7px;
+}
+.bookmarkButtonContainer {
+  cursor: pointer;
+}
+@media (max-width: 575px) {
+  .image {
+    height: 266px;
+    border-radius: 6px;
+  }
+  .title {
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+
+  .itemContainer {
+    margin-bottom: 41px;
+  }
+}
+@media (max-width: 450px) {
+  .image {
+    height: 216px;
+  }
+}

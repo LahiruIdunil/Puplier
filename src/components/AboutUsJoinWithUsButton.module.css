@@ -1,0 +1,15 @@
+.joinWithPuplierBtn {
+  height: 65px;
+  background: var(--primaryColor1);
+  border-radius: 70px;
+  border: none;
+}
+.joinWithPuplierBtnText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148.9%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+}

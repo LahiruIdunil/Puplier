@@ -1,0 +1,145 @@
+.itemContainer {
+  padding-bottom: 29px;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.15);
+  margin-bottom: 33px;
+}
+.articleImageContainer {
+  width: 134px;
+  height: 134px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.articlePublishedDate {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148.9%;
+  color: #959393;
+  text-transform: capitalize;
+  margin-bottom: 13px;
+}
+.articleStatus {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148.9%;
+  color: #959393;
+  text-transform: capitalize;
+  margin-bottom: 13px;
+}
+.articleTitle {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 130%;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+}
+.articlContentContainer {
+  margin-top: 10px;
+}
+.articleContent {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148.9%;
+  color: var(--secondaryColor3);
+  margin: 0;
+}
+.customToggle {
+  color: black;
+  background-color: white;
+  border: none;
+  padding: 0;
+}
+.customToggle a {
+  color: black !important;
+}
+.actionSection {
+  display: flex;
+  flex-direction: row;
+}
+.inviteButtonConatainer {
+  margin-right: 21px;
+}
+.secondaryInviteButtonContainer {
+  display: none;
+  justify-content: flex-end;
+}
+@media (max-width: 1799px) and (min-width: 1400px) {
+  .secondaryInviteButtonContainer {
+    display: flex;
+  }
+  .primaryInviteButtonContainer {
+    display: none;
+  }
+  .articleTitle {
+    font-size: 20px;
+  }
+  .inviteButtonConatainer {
+    margin-right: 0;
+  }
+}
+@media (max-width: 1199px) {
+  .secondaryInviteButtonContainer {
+    display: flex;
+  }
+  .primaryInviteButtonContainer {
+    display: none;
+  }
+  .inviteButtonConatainer {
+    margin-right: 0;
+  }
+  .articleTitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .articletitleContainer {
+    max-width: 100%;
+    padding-right: 0;
+  }
+  .articleTitle {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .articlePublishedDate {
+    font-weight: 500;
+    color: var(--secondaryColor1);
+    margin-bottom: 5px;
+  }
+  .articleStatus {
+    margin: 0;
+  }
+  .articleImageContainer {
+    height: 114px;
+    border-radius: 6px;
+  }
+  .itemContainer {
+    border: 0;
+  }
+  .articleImageContainerParent {
+    padding-right: 2px;
+  }
+  .itemContainer {
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 575px) {
+  .articleImageContainer {
+    width: 120px;
+    height: 84px;
+  }
+  .articleTitle {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .articlePublishedDate {
+    margin-bottom: 2px;
+  }
+  .articlePublishedDate,
+  .articleStatus {
+    font-size: 13px;
+  }
+  .itemContainer {
+    margin-bottom: 21px;
+  }
+}

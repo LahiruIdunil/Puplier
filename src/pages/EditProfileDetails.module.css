@@ -1,0 +1,67 @@
+@media (min-width: 1400px) {
+  .editProfileContainer {
+    width: 688px;
+  }
+}
+.titleContainer {
+  margin-bottom: 55px;
+}
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 106.9%;
+  text-transform: capitalize;
+  color: #000000;
+}
+.titleIconContainer {
+  margin-right: 6px;
+}
+.profileImageContainer {
+  margin-bottom: 41px;
+}
+.profileImage {
+  width: 136px;
+  height: 136px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.imageUploadIcon {
+  position: absolute;
+  bottom: 9px;
+  right: 0;
+}
+.inputContainer {
+  border: 1px solid var(--secondaryColor4);
+  border-radius: 5px;
+  width: 100%;
+  padding: 12px 23px;
+  margin-bottom: 31px;
+  outline: none !important;
+}
+.formSubmitButton {
+  width: 215px;
+  height: 63px;
+  background: var(--primaryColor1);
+  border-radius: 50px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  color: #000000;
+  border: none;
+  outline: none !important;
+  margin-bottom: 94px;
+}
+.aboutInputContainer {
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+@media (max-width: 575px) {
+  .formSubmitButton {
+    width: 100%;
+  }
+}

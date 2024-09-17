@@ -1,0 +1,90 @@
+.singleReviewItemContainer {
+  margin-bottom: 30px;
+}
+.imageContainer {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+.articleTitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 148.9%;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 2px;
+}
+.authorName {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 148.9%;
+  display: flex;
+  align-items: center;
+  color: var(--secondaryColor1);
+  margin-bottom: 0;
+}
+.accessEndTime {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148.9%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--lightGray);
+  margin-bottom: 8px;
+}
+.actionButton {
+  background: #ffffff;
+  border: 1px solid var(--primaryColor2);
+  border-radius: 7px;
+  outline: none !important;
+  padding: 7px 10px 8px 12px;
+  min-width: 160px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148.9%;
+  text-transform: capitalize;
+  color: var(--primaryColor2);
+  transition: all 0.3s;
+}
+.actionButton:hover {
+  scale: 1.03;
+}
+.revokeAccessButton {
+  color: var(--secondaryColor2);
+  border-color: var(--secondaryColor2);
+}
+@media (max-width: 767px) {
+  .imageContainer {
+    width: 70px;
+    height: 70px;
+    margin: 0;
+  }
+  .imageContainerParent {
+    padding-right: 0;
+  }
+}
+@media (max-width: 575px) {
+  .imageContainer {
+    width: 65px;
+    height: 65px;
+  }
+  .actionButton {
+    padding: 6px 8px 7px 10px;
+    font-size: 14px;
+  }
+  .articleTitle {
+    font-size: 17px;
+  }
+  .authorName {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,65 @@
+.reviewContentContainer {
+  background-color: var(--secondaryColor1);
+  padding: 63px 37px 110px;
+}
+.reviewContent {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 29px;
+  line-height: 154.4%;
+  text-align: center;
+  color: #ffffff;
+}
+.reviewImage {
+  width: 161px;
+  height: 161px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 22px;
+}
+.reviewWriterName {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 148.9%;
+  text-align: center;
+  color: #000000;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.reviewWriterAbout {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  text-align: center;
+  color: #000000;
+}
+.reviewWriterAboutContainer {
+  width: 397px;
+}
+.reviewWriterDetailsContainer {
+  margin-top: -70px;
+}
+@media (max-width: 1199px) {
+  .reviewContent {
+    font-size: 27px;
+  }
+}
+@media (max-width: 575px) {
+  .reviewContent {
+    font-size: 21px;
+  }
+  .reviewImage {
+    width: 140px;
+    height: 140px;
+  }
+  .reviewWriterName {
+    font-size: 21px;
+  }
+  .reviewWriterAbout {
+    font-size: 18px;
+  }
+}

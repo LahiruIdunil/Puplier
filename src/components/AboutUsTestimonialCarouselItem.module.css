@@ -1,0 +1,52 @@
+.carouselItemDiv {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.review {
+  text-align: center;
+  margin-bottom: 68px;
+}
+.photoCircle {
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+  overflow: hidden;
+  margin-bottom: 23px;
+}
+.photo {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+.name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 156.9%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.jobTitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 156.9%;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--lightGray);
+  margin-bottom: 1px;
+}
+.company {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 156.9%;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--lightGray);
+  margin-bottom: 92px;
+}

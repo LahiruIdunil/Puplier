@@ -1,0 +1,36 @@
+.profileImageContainerParent {
+  padding-right: 19px;
+}
+.profileImageContainer {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.profileDetailsContainer {
+  display: flex;
+  justify-content: center;
+}
+.profileName {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.description {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 148.9%;
+  color: var(--secondaryColor3);
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.profileItemContainer {
+  margin-bottom: 25px;
+}

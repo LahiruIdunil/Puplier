@@ -1,0 +1,51 @@
+.aboutUsOurTeamTitle {
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 73px;
+}
+.aboutUsPrevArrow,
+.aboutUsNextArrow {
+  position: absolute;
+  top: 125px;
+  cursor: pointer;
+}
+.aboutUsPrevArrow {
+  left: -120px;
+}
+.aboutUsNextArrow {
+  right: -120px;
+  -ms-transform: rotate(180deg); /* IE 9 */
+  transform: rotate(180deg);
+}
+.aboutUsTeamCarousel .slick-dots {
+  bottom: -65px !important;
+}
+.aboutUsTeamCarousel .slick-dots li button {
+  transform: scale(2.4);
+}
+@media (max-width: 1799px) {
+  .aboutUsPrevArrow {
+    left: -100px;
+  }
+  .aboutUsNextArrow {
+    right: -100px;
+  }
+}
+@media (max-width: 991px) {
+  .aboutUsPrevArrow {
+    left: -90px;
+  }
+  .aboutUsNextArrow {
+    right: -90px;
+  }
+}
+@media (max-width: 575px) {
+  .aboutUsPrevArrow,
+  .aboutUsNextArrow {
+    display: none;
+  }
+}

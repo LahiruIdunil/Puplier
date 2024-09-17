@@ -1,0 +1,17 @@
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+}
+.messageImage {
+  width: 450px;
+  margin: auto;
+  display: flex;
+}
+@media (max-width: 460px) {
+  .messageImage {
+    width: 90%;
+  }
+}

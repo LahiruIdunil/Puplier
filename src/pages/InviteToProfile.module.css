@@ -1,0 +1,80 @@
+.shortDescription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 167.9%;
+  color: #000000;
+  margin-bottom: 60px;
+}
+.suggestionsTitleContainer {
+  background: rgba(60, 170, 196, 0.04);
+  padding: 19px 36px 20px;
+  border-left: 7px solid var(--primaryColor2);
+  border-radius: 5px;
+  margin-bottom: 28px;
+}
+.suggestionsTitle {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 106.9%;
+  color: var(--secondaryColor1);
+  margin: 0;
+}
+.suggestItemsContainer {
+  margin-bottom: 27px;
+}
+.emailInputTip {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 167.9%;
+  color: var(--secondaryColor1);
+  margin-bottom: 5px;
+}
+.emailInputContainer textarea {
+  border: 1px solid var(--secondaryColor4);
+  width: 100%;
+  outline: none !important;
+  padding: 15px 20px;
+}
+.emailInputContainer textarea::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--lightGray);
+  font-family: "Roboto", sans-serif;
+  opacity: 1; /* Firefox */
+}
+
+.emailInputContainer textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+}
+
+.emailInputContainer textarea::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: red;
+}
+.emailInputContainer .submitButton {
+  width: 164px;
+  height: 63px;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 148.9%;
+  color: #000000;
+  border: none;
+  outline: none !important;
+  background: var(--primaryColor1);
+  text-transform: capitalize;
+  border-radius: 60px;
+  margin-top: 36px;
+}
+.overRideStylesOfTitle {
+  margin-bottom: 21px;
+}
+@media (max-width: 767px) {
+  .emailInputContainer .submitButton {
+    width: 100%;
+  }
+}

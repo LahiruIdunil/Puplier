@@ -1,0 +1,171 @@
+@media (min-width: 1200px) {
+  .customSignupModalContainer {
+    width: 1140px;
+    max-width: 1116px;
+  }
+}
+@media (min-width: 1400px) {
+  .customSignupModalContainer {
+    width: 1220px;
+    max-width: 1220px;
+  }
+}
+.customModalBody {
+  padding: 0;
+}
+.leftContainer {
+  padding: 195px 125px 81px 73px;
+  background: linear-gradient(
+    92.39deg,
+    var(--primaryColor2) 2.31%,
+    #4fb1c9 97.49%
+  );
+  width: 584px;
+}
+.upperDiv {
+  align-self: center !important;
+}
+.logoBox {
+  width: 92px;
+  height: 89px;
+  border-radius: 24px;
+  background: white;
+  margin-bottom: 33px;
+}
+.tagline {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: -0.022em;
+  color: #ffffff;
+  margin: 0;
+}
+.leftBottomText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.011em;
+  color: #ffffff;
+  margin: 0;
+}
+.leftContainerLoginLink {
+  text-decoration: underline;
+  color: #ffc942;
+  cursor: pointer;
+}
+.rightContainer {
+  padding: 57px 91px 62px;
+  position: relative;
+}
+.modalCloseButtonContainer {
+  position: absolute;
+  right: 25px;
+  top: 23px;
+}
+.modalCloseButton {
+  outline: none !important;
+  box-shadow: none !important;
+  color: var(--lightGray);
+  font-weight: lighter;
+  cursor: pointer;
+}
+.title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 106.9%;
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+}
+.signupWithGoogleButton {
+  width: 225px;
+  height: 55px;
+  background: #4181ec;
+  border-radius: 60px;
+  margin: 0 auto 22px;
+  padding: 0 22px 0 10px;
+}
+.SignupWithGoogleButtonContent {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 148.9%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin: 0;
+}
+.signupWithEmailText {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 148.9%;
+  text-align: center;
+  color: var(--lightGray);
+  margin-bottom: 42px;
+}
+.doubleInputContainer {
+  margin: 0 -7.5px;
+}
+.doubleInputContainer > div {
+  padding: 0 7.5px;
+}
+.submitButton {
+  width: 100%;
+  border: none;
+  background: #ffc942;
+  border-radius: 5px;
+  height: 63px;
+  margin: 28px 0 16px;
+}
+.submitButtonContent {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 148.9%;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+}
+.bottomText {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 148.9%;
+  color: #000000;
+  margin: 0;
+}
+
+.bottomTextLink {
+  color: var(--primaryColor2);
+  text-decoration: underline;
+  white-space: nowrap;
+}
+@media (max-width: 1399px) {
+  .leftContainer {
+    width: 524px;
+  }
+}
+@media (max-width: 1199px) {
+  .rightContainer {
+    padding: 80px 160px;
+  }
+  .title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 991px) {
+  .rightContainer {
+    padding: 65px 60px;
+  }
+  .title {
+    font-size: 31px;
+  }
+}
+@media (max-width: 575px) {
+  .rightContainer {
+    padding: 55px 40px;
+  }
+  .title {
+    font-size: 28px;
+  }
+}

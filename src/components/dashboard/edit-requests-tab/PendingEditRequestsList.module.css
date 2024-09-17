@@ -1,0 +1,54 @@
+.listTitle {
+  font-size: 18px;
+  margin-bottom: 35px;
+  color: var(--lightGray);
+}
+.pendingRequestItemHeading {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 148.9%;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+  margin-right: 15px;
+}
+.pendingRequestItem {
+  border-bottom: 1px solid var(--secondaryColor4);
+  padding: 21px 0;
+}
+.customAccordionPanel {
+  margin-top: 44px;
+}
+.accordionContainer {
+  margin-bottom: 60px;
+}
+.customAccordionBody {
+  padding: 0 0 11px;
+  margin-top: -6px;
+}
+.customAccordionHeader > button {
+  background: white !important;
+  padding: 19px 0;
+  box-shadow: none !important;
+}
+.customAccordionHeader > button:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.customAccordionHeader > button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-icon);
+}
+@media (max-width: 767px) {
+  .listTitle {
+    font-size: 17px;
+  }
+}
+@media (max-width: 575px) {
+  .pendingRequestItemHeading {
+    font-size: 18px;
+  }
+  .listTitle {
+    font-size: 16px;
+  }
+}

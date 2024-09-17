@@ -1,0 +1,556 @@
+/* topBanner ends here */
+.topBanner {
+  background: var(--secondaryColor3);
+  padding: 150px 0 130px;
+  margin-top: -98px;
+}
+.topBanner .topBannerTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 59px;
+  line-height: 106.9%;
+  color: white;
+  margin-bottom: 40px;
+}
+.topBanner .topBannerContent {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 106.9%;
+  color: var(--secondaryColor4);
+  margin-bottom: 50px;
+}
+.topBanner .topBannerVideo {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 440px;
+}
+.topBanner .topBannerSignUpButton {
+  font-size: 19px;
+  padding: 18px 34px;
+}
+@media (max-width: 1799px) {
+  .topBanner .topBannerTitle {
+    font-size: 53px;
+  }
+  .topBanner .topBannerContent {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1799px) {
+  .topBanner .topBannerTitle {
+    font-size: 50px;
+  }
+  .topBanner .topBannerContent {
+    font-size: 34px;
+  }
+}
+@media (max-width: 1399px) {
+  .topBanner .topBannerTitle {
+    font-size: 48px;
+  }
+  .topBanner .topBannerContent {
+    font-size: 29px;
+  }
+}
+@media (max-width: 1199px) {
+  .topBanner .topBannerTitle {
+    font-size: 45px;
+  }
+  .topBanner .topBannerContent {
+    font-size: 28px;
+  }
+}
+@media (max-width: 991px) {
+  .topBanner .topBannerVideo {
+    margin-top: 70px;
+  }
+  .topBanner .topBannerTitle {
+    font-size: 46px;
+  }
+  .topBanner .topBannerContent {
+    font-size: 27px;
+  }
+}
+@media (max-width: 575px) {
+  .topBanner {
+    padding: 140px 0 80px;
+  }
+  .topBanner .topBannerTitle {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+  .topBanner .topBannerContent {
+    font-size: 26px;
+  }
+  .topBanner .topBannerContent {
+    font-size: 23px;
+    margin-bottom: 35px;
+  }
+  .topBanner .topBannerSignUpButton {
+    font-size: 17px;
+    padding: 17px 33px;
+  }
+}
+/* topBannerr ends here */
+
+/* traditionalDrawbacks section starts here */
+.traditionalDrawbacks {
+  padding: 60px 0;
+}
+.traditionalDrawbacks .traditionalDrawbacksTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.traditionalDrawbacks .traditionalDrawbacksTitle span {
+  color: var(--primaryColor2);
+}
+.traditionalDrawbacks .singleDrawback {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  margin-bottom: 45px;
+}
+.traditionalDrawbacks .singleDrawback span {
+  font-weight: 700;
+}
+@media (max-width: 1599px) {
+  .traditionalDrawbacks .traditionalDrawbacksTitle {
+    font-size: 38px;
+  }
+}
+@media (max-width: 1199px) {
+  .traditionalDrawbacks .traditionalDrawbacksTitle {
+    font-size: 36px;
+  }
+}
+@media (max-width: 575px) {
+  .traditionalDrawbacks .traditionalDrawbacksTitle {
+    font-size: 31px;
+  }
+  .traditionalDrawbacks .singleDrawback {
+    font-size: 20px;
+  }
+}
+/* traditinoalDrawbacks section ends here */
+
+/* publishFlow section starts here */
+.publishFlow {
+  background: var(--secondaryColor4);
+  padding: 60px 0;
+}
+.publishFlow .pushFlowTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 106.9%;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 60px;
+}
+.publishFlow .publishFlowUnderline {
+  position: absolute;
+  bottom: -16px;
+  left: 89px;
+  background-color: var(--secondaryColor1);
+  width: 125px;
+  height: 7px;
+}
+@media (max-width: 1199px) {
+  .publishFlow .pushFlowTitle {
+    font-size: 38px;
+  }
+}
+@media (max-width: 575px) {
+  .publishFlow .pushFlowTitle {
+    font-size: 32px;
+  }
+}
+/* publishflow section ends here */
+
+/* advantageList section starts here */
+.advantageList {
+  padding: 70px 0;
+}
+.advantageList .advantageListTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 106.9%;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  margin-bottom: 75px !important;
+}
+@media (max-width: 1199px) {
+  .advantageList .advantageListTitle {
+    font-size: 37px;
+    text-decoration: none;
+  }
+}
+@media (max-width: 991px) {
+  .advantageList .advantageListTitle {
+    font-size: 37px;
+  }
+}
+@media (max-width: 575px) {
+  .advantageList .advantageListTitle {
+    font-size: 30px;
+    margin-bottom: 60px !important;
+  }
+}
+/* advantageList section ends here */
+
+/* FactsSection starts here */
+.FactsSection {
+  padding: 40px 0;
+}
+.FactsSection .FactSectionTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 90px;
+}
+@media (min-width: 1600px) {
+  .FactsSection .FactSectionTitle .FactSectionTitleTail {
+    color: var(--primaryColor2);
+    border-bottom: 3px solid var(--primaryColor2);
+    padding-left: 7px;
+  }
+  .FactsSection .FactSectionTitle .FactSectionTitleHead {
+    border-bottom: 3px solid;
+    padding-right: 7px;
+  }
+}
+@media (max-width: 1199px) {
+  .FactsSection .FactSectionTitle {
+    font-size: 39px;
+  }
+}
+@media (max-width: 575px) {
+  .FactsSection .FactSectionTitle {
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+}
+.FactsSection .FactSectionTitle .FactSectionTitleTail {
+  color: var(--primaryColor2);
+  padding-left: 7px;
+}
+.FactsSection .FactSectionTitle .FactSectionTitleHead {
+  padding-right: 7px;
+}
+/* FactsSection ends here */
+
+/* reviewSection starts here */
+.reviewSection {
+  padding: 30px 0;
+}
+/* reveiwSection ends here */
+
+/* benifitSection starts here */
+.benifitSection {
+  padding: 80px 0 110px;
+}
+.benifitSection .benifitSectionTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 120%;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 70px;
+}
+.benifitSection .benifitSectionSignUpButton {
+  font-size: 22px;
+}
+@media (max-width: 1199px) {
+  .benifitSection .benifitSectionTitle {
+    font-size: 38px;
+  }
+}
+@media (max-width: 575px) {
+  .benifitSection .benifitSectionTitle {
+    font-size: 31px;
+    text-decoration: none;
+  }
+  .benifitSection .benifitSectionSignUpButton {
+    font-size: 19px;
+    padding: 21px 46px;
+  }
+}
+/* benifitSection ends here */
+
+/* howItWorksSection starts here */
+.howItWorksSection {
+  background-color: black;
+  padding: 62px 0;
+}
+.howItWorksSection .howItWorksSectionTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.howItWorksSection .howItWorksSectionSubtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 70px;
+}
+@media (max-width: 575px) {
+  .howItWorksSection {
+    padding: 62px 0 0;
+  }
+  .howItWorksSection .howItWorksSectionTitle {
+    font-size: 39px;
+  }
+  .howItWorksSection .howItWorksSectionSubtitle {
+    font-size: 21px;
+  }
+}
+/* howItWorksSection ends here */
+
+/* faqSection starts here */
+.faqSection {
+  padding: 53px 0 76px;
+}
+.faqSection .faqTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin: auto;
+}
+.faqSection .faqTitleImage {
+  margin-left: 30px;
+}
+.faqSection .faqTitleContainer {
+  margin-bottom: 51px;
+}
+@media (max-width: 1199px) {
+  .faqSection .faqTitle {
+    font-size: 39px;
+  }
+}
+@media (max-width: 575px) {
+  .faqSection .faqTitle {
+    font-size: 34px;
+  }
+}
+/* faqSection ends here */
+
+/* contactUsSection starts here */
+.contactUsSection {
+  background-color: var(--secondaryColor3);
+  padding: 51px 0 70px;
+}
+.contactUsSection .contactUsTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 106.9%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.contactUsSection .contactUsTitle span {
+  color: var(--primaryColor2);
+}
+.contactUsSection .contactUsSubtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 106.9%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 65px;
+}
+.contactUsSection .visitUsContainer {
+  margin-bottom: 85px;
+  margin-top: 44px;
+}
+.contactUsSection .visitUs {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 106.9%;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 12px;
+}
+.contactUsSection .contactUsAddressComponent {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 10px;
+}
+.contactUsSection .contactUsFormTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 106.9%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 32px;
+  margin-left: 16px;
+}
+.contactUsSection .contactUsFormContainer {
+  background: #ffffff;
+  border: 1px solid #3caac4;
+  border-radius: 9px;
+  padding: 44px 62px 48px;
+  margin-left: 82px;
+}
+.contactUsSection .contactUsInputItem {
+  border: 1px solid #d9d9d9;
+  width: 100%;
+  padding: 14px 17px;
+  margin-bottom: 29px;
+}
+.contactUsSection .contactUsFormSubmitButton {
+  background-color: var(--primaryColor1);
+  border: none;
+  outline: none !important;
+  width: 100%;
+  padding: 19px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+}
+.contactUsSection .mapContainer {
+  height: 346px;
+  padding-right: 55px;
+}
+/* WebKit, Edge */
+.contactUsInputItem::-webkit-input-placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+}
+/* Firefox 4-18 */
+.contactUsInputItem:-moz-placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+}
+/* Firefox 19+ */
+.contactUsInputItem::-moz-placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+}
+/* IE 10-11 */
+.contactUsInputItem:-ms-input-placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+}
+/* Edge */
+.contactUsInputItem::-ms-input-placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+}
+/* MODERN BROWSER */
+.contactUsInputItem::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 148.9%;
+  color: #000000;
+  text-transform: capitalize;
+}
+@media (max-width: 1799px) {
+  .contactUsSection .mapImage {
+    width: 100%;
+  }
+}
+@media (max-width: 1599px) {
+  .contactUsSection .contactUsFormContainer {
+    padding: 44px 42px 48px;
+  }
+}
+@media (max-width: 1199px) {
+  .contactUsSection .contactUsFormContainer {
+    margin-left: 0;
+    margin-top: 90px;
+  }
+}
+@media (max-width: 767px) {
+  .contactUsSection .visitUsContainer {
+    margin-bottom: 65px;
+    margin-top: 0;
+  }
+  .contactUsSection .visitUs {
+    font-size: 30px;
+  }
+  .contactUsSection .mapContainer {
+    padding-right: 12px;
+  }
+}
+@media (max-width: 550px) {
+  .contactUsSection .contactUsFormContainer {
+    padding: 44px 15px 48px;
+  }
+  .contactUsSection .contactUsFormTitle {
+    font-size: 31px;
+    margin-bottom: 42px;
+  }
+}
+/* contactUsSection ends here */
